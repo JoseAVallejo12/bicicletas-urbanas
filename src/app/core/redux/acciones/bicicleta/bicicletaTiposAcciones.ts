@@ -7,4 +7,4 @@ interface AccionListarBicicleta {
   payload: Bicicleta[];
 }
 
-export type TiposAccionesBicicleta = AccionListarBicicleta;
+export type TiposAccionesBicicleta = | AccionListarBicicleta

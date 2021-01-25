@@ -17,9 +17,6 @@ export const GestionAlquiler: React.FC<GestionAlquilerProps> = ({
     listarAlquiler();
   });
 
-  useEffect(() => {
-    console.log("data", alquiler)
-  }, []);
   return (
     <DivContainer>
       <DivRow>

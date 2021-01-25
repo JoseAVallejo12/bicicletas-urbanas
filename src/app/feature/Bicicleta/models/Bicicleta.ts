@@ -6,5 +6,6 @@ export interface Bicicleta {
   almacenActual: number;
   fechaCompra: string;
   estado: string;
-
+  valorHora: string,
+  descripcion: string
 }

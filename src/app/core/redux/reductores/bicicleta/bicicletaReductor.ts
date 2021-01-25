@@ -13,7 +13,6 @@ export default function (
   state = initialState,
   action: TiposAccionesBicicleta,
 ): EstadoBicicleta {
-  console.log("este es el action", action);
   switch (action.type) {
     case LISTAR_BICICLETA: {
       const bicicleta = action.payload;

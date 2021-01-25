@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` <GestionBicicletas />Test should match snapshot 1`] = `
+<WithStyles(ForwardRef(Grid))
+  className="makeStyles-root-1"
+  container={true}
+  spacing={3}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    justify="center"
+    spacing={3}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      key="1"
+      xs={3}
+    >
+      <WithStyles(ForwardRef(Paper))
+        className="makeStyles-paper-2"
+        key="1"
+      >
+        <MediaCardBici
+          bici={
+            Object {
+              "almacenActual": 1,
+              "color": "Roja",
+              "descripcion": "Bicicleta de Montaña Jeep Baltoro 29 pulgadas Género: Unisex Material del marco: Aluminio, Número de cambios: 21, Tipo de freno: Disco mecánico, Suspensión: Delantera",
+              "estado": "alquilada",
+              "fechaCompra": "2021-01-19T05:00:00.000Z",
+              "id": 1,
+              "marca": "Jeep",
+              "serial": "BALTORO 29 V20",
+              "valorHora": "5000",
+            }
+          }
+          key="1"
+          listarBici={[Function]}
+        />
+      </WithStyles(ForwardRef(Paper))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

@@ -4,6 +4,7 @@
 // learn more: https://github.com/testing-library/jest-dom
 import '@testing-library/jest-dom/extend-expect';
 import Adapter from 'enzyme-adapter-react-16';
+import Enzyme from 'enzyme';
 import { configure } from 'enzyme';
 import { createSerializer } from 'enzyme-to-json';
 
