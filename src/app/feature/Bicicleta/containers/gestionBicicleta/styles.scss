@@ -1,0 +1,9 @@
+.bicisGrid {
+  flex-grow: 1;
+}
+
+.MuiGrid-grid-xs-3 {
+  flex-grow: 0;
+  max-width: none !important;
+  flex-basis: auto !important;
+}
